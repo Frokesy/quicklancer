@@ -2,7 +2,7 @@ import { ArrowDown, Hamburger, Logo } from "../svgs/Icons";
 
 const Header = () => {
   return (
-    <div className="bg-[#fff]">
+    <div className="bg-[#fff] fixed w-[100%] z-50">
       <div className="w-[90vw] mx-auto py-6 flex justify-between items-center">
         <div className="flex space-x-14">
           <div className="flex items-center space-x-3 lg:text-[24px] text-[20px] font-semibold">
