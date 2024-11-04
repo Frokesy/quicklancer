@@ -50,3 +50,131 @@ export const Hamburger = () => (
     />
   </svg>
 );
+
+export const SearchIcon = () => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle
+      cx="11.7664"
+      cy="11.7666"
+      r="8.98856"
+      stroke="#25324B"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M18.0181 18.4852L21.5421 22.0001"
+      stroke="#25324B"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export const LocationIcon = () => (
+  <svg
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M5.8335 11.6667H7.50016L8.75016 15.8334H11.2502L12.5002 11.6667H14.1668V10C14.1668 7.69886 12.3013 5.83337 10.0002 5.83337C7.69898 5.83337 5.8335 7.69886 5.8335 10V11.6667Z"
+      stroke="#667085"
+      strokeWidth="1.25"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M15.8332 15.8309C15.8332 17.2138 13.2215 18.3348 9.99984 18.3348C6.77818 18.3348 4.1665 17.2138 4.1665 15.8309"
+      stroke="#667085"
+      strokeWidth="1.25"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M9.99984 5.83329C11.1504 5.83329 12.0832 4.90055 12.0832 3.74996C12.0832 2.59937 11.1504 1.66663 9.99984 1.66663C8.84924 1.66663 7.9165 2.59937 7.9165 3.74996C7.9165 4.90055 8.84924 5.83329 9.99984 5.83329Z"
+      stroke="#667085"
+      strokeWidth="1.25"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export const CategoriesIcon = () => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M3 4.5C3 3.67157 3.67157 3 4.5 3H6.5C7.32843 3 8 3.67157 8 4.5V6.5C8 7.32843 7.32843 8 6.5 8H4.5C3.67157 8 3 7.32843 3 6.5V4.5Z"
+      stroke="#25324B"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M3 17.5C3 16.6716 3.67157 16 4.5 16H6.5C7.32843 16 8 16.6716 8 17.5V19.5C8 20.3284 7.32843 21 6.5 21H4.5C3.67157 21 3 20.3284 3 19.5V17.5Z"
+      stroke="#25324B"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M7.99978 18.5H20.9998M15.9998 5.5H7.99978M16.3233 7.67649L7.64844 16.3513"
+      stroke="#25324B"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M16 4.5C16 3.67157 16.6716 3 17.5 3H19.5C20.3284 3 21 3.67157 21 4.5V6.5C21 7.32843 20.3284 8 19.5 8H17.5C16.6716 8 16 7.32843 16 6.5V4.5Z"
+      stroke="#25324B"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M18 21L19.3883 20.0537C20.4628 19.3213 21 18.9551 21 18.5C21 18.0449 20.4628 17.6787 19.3883 16.9463L18 16"
+      stroke="#25324B"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export const ExperienceIcon = () => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M14.5 10.5005C14.5 9.11924 13.3808 8 12.0005 8C10.6192 8 9.5 9.11924 9.5 10.5005C9.5 11.8808 10.6192 13 12.0005 13C13.3808 13 14.5 11.8808 14.5 10.5005Z"
+      stroke="#25324B"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M11.9995 21C10.801 21 4.5 15.8984 4.5 10.5633C4.5 6.38664 7.8571 3 11.9995 3C16.1419 3 19.5 6.38664 19.5 10.5633C19.5 15.8984 13.198 21 11.9995 21Z"
+      stroke="#25324B"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
