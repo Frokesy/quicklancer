@@ -1,4 +1,5 @@
 import Header from "../../components/defaults/Header"
+import About from "../../components/sections/About"
 import Categories from "../../components/sections/Categories"
 import Hero from "../../components/sections/Hero"
 
@@ -8,6 +9,7 @@ const Home = () => {
       <Header />
       <Hero />
       <Categories />
+      <About />
     </div>
   )
 }
