@@ -3,6 +3,7 @@ import About from "../../components/sections/About"
 import Categories from "../../components/sections/Categories"
 import Hero from "../../components/sections/Hero"
 import Openings from "../../components/sections/Openings"
+import TopRated from "../../components/sections/TopRated"
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Categories />
       <About />
       <Openings />
+      <TopRated />
     </div>
   )
 }
