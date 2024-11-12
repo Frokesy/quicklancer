@@ -4,6 +4,7 @@ import Categories from "../../components/sections/Categories"
 import Hero from "../../components/sections/Hero"
 import Openings from "../../components/sections/Openings"
 import Plans from "../../components/sections/Plans"
+import Testimonials from "../../components/sections/Testimonials"
 import TopRated from "../../components/sections/TopRated"
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Openings />
       <TopRated />
       <Plans />
+      <Testimonials />
     </div>
   )
 }
