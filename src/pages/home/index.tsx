@@ -1,5 +1,6 @@
 import Header from "../../components/defaults/Header"
 import About from "../../components/sections/About"
+import Blog from "../../components/sections/Blog"
 import Categories from "../../components/sections/Categories"
 import Hero from "../../components/sections/Hero"
 import Openings from "../../components/sections/Openings"
@@ -18,6 +19,7 @@ const Home = () => {
       <TopRated />
       <Plans />
       <Testimonials />
+      <Blog />
     </div>
   )
 }
