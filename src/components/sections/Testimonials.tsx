@@ -26,9 +26,9 @@ const Testimonials = () => {
     <div className="my-[15vh] w-[90vw] mx-auto">
       <h2 className="text-[48px] font-semibold text-center pb-10">Testimonials</h2>
 
-      <div className="grid grid-cols-3 gap-10">
+      <div className="flex space-x-10 overflow-x-auto">
         {users.map((user) => (
-          <div className="flex space-x-4 bg-[#f1f1f1] p-10 rounded-2xl" key={user.id}>
+          <div className="flex space-x-4 bg-[#f1f1f1] p-10 rounded-2xl flex-shrink-0 w-[376px]" key={user.id}>
             <img src={user.avatar} alt="img" className="w-[80px] h-[80px]" />
             <div className="">
               <h2 className="text-[20px] font-semibold">{user.name}</h2>
