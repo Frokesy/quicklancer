@@ -109,3 +109,21 @@ export const BlFour = () => (
     />
   </svg>
 );
+
+export const DiagonalArrow = () => (
+  <svg
+    width="25"
+    height="28"
+    viewBox="0 0 25 28"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M7.66699 21L17.667 11M17.667 11H7.66699M17.667 11V21"
+      stroke="#010145"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
