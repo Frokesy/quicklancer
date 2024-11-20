@@ -1,3 +1,4 @@
+import Footer from "../../components/defaults/Footer"
 import Header from "../../components/defaults/Header"
 import About from "../../components/sections/About"
 import Blog from "../../components/sections/Blog"
@@ -22,6 +23,7 @@ const Home = () => {
       <Testimonials />
       <Blog />
       <TrustedBrands />
+      <Footer />
     </div>
   )
 }

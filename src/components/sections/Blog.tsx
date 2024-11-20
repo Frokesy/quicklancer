@@ -134,7 +134,7 @@ const Blog = () => {
       </div>
 
       <div className="mt-[15vh] w-[90vw] mx-auto">
-        <h2 className="text-[48px] font-semibold">Recent Blog</h2>
+        <h2 className="lg:text-[48px] text-[30px] font-semibold">Recent Blog</h2>
 
         <div className="flex space-x-10 overflow-x-auto mt-10">
           {blogPosts.map((blogPost) => (
