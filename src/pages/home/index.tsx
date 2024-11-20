@@ -7,6 +7,7 @@ import Openings from "../../components/sections/Openings"
 import Plans from "../../components/sections/Plans"
 import Testimonials from "../../components/sections/Testimonials"
 import TopRated from "../../components/sections/TopRated"
+import TrustedBrands from "../../components/sections/TrustedBrands"
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <Plans />
       <Testimonials />
       <Blog />
+      <TrustedBrands />
     </div>
   )
 }
