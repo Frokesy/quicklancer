@@ -1,5 +1,4 @@
 import Filter from "./Filter";
-
 interface CategoriesProps {
   id: number;
   img: string;
