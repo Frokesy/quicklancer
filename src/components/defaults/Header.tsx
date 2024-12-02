@@ -1,6 +1,10 @@
+import { useState } from "react";
 import { ArrowDown, Hamburger, Logo } from "../svgs/Icons";
+import Drawer from "./Drawer";
 
 const Header = () => {
+  const [openDrawer, setOpenDrawer] = useState<boolean>(false);
+
   return (
     <div className="bg-[#fff] fixed w-[100%] z-50">
       <div className="w-[90vw] mx-auto py-6 flex justify-between items-center">
@@ -24,12 +28,14 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="flex lg:hidden"><Hamburger /></div>
+        <div className="flex lg:hidden" onClick={() => setOpenDrawer(true)}><Hamburger /></div>
         <div className="lg:flex hidden space-x-8">
           <button className="py-2 px-6 border border-[#ccc] text-[#404040] rounded-lg">Login</button>
           <button className="text-[#fff] bg-[#0000ff] py-2 px-6 rounded-lg font-semibold">Signup</button>
         </div>
       </div>
+
+      {openDrawer && <Drawer setOpenDrawer={setOpenDrawer} />}
     </div>
   );
 };
