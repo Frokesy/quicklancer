@@ -25,7 +25,7 @@ const Filter = () => {
         <div className="flex items-center justify-between space-x-3 border border-[#ccc] py-3 px-3 rounded-lg">
           <LocationIcon />
           <select className="outline-none bg-inherit w-[100%]">
-            <option value="" disabled>
+            <option value="">
               Select location
             </option>
             {options.map((option) => (
