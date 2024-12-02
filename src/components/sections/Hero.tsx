@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="bg-[url('/assets/hero.png')] relative bg-no-repeat bg-cover w-[100%] min-h-screen">
+    <div className="bg-[url('/assets/hero.png')] relative bg-no-repeat bg-cover w-[100%] lg:min-h-screen min-h-[80vh]">
       <div className="absolute top-0 w-[100%] h-[100%] bg-[#000] bg-opacity-60 flex flex-col items-center justify-center">
         <h2 className="lg:text-[72px] text-[48px] text-[#fff] lg:w-[65%] w-[90%] text-center font-semibold">
           Hire the best <span className="text-[#b0b0ff]">freelancers</span> for
